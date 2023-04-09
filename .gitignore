@@ -1,5 +1,6 @@
-css\estilos.css
-js\app.js
-js\opciones.js
-js\opcionesSinComentarios.js
-media\resources
+/css/estilos.css
+/css/normalize.css
+/js/app.js
+/js/opciones.js
+/js/opcionesSinComentarios.js
+/resources
