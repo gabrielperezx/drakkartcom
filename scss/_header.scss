@@ -1,0 +1,27 @@
+.header {
+	background: url('../media/bg-imagen-01.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	.contenedor-icono {
+		position: absolute;
+		z-index: 99;
+		bottom: 3%;
+		left: 50%;
+		font-size: 40px;
+		animation: bajar-subir 1s ease infinite;
+	}
+}
+
+@keyframes bajar-subir {
+	0% {
+		transform: translateY(20px);
+	}
+	25% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(20px);
+	}
+}

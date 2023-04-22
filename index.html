@@ -9,7 +9,6 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="css/normalize.min.css" />
 		<link rel="stylesheet" href="css/fullpage.min.css" />
 		<link rel="stylesheet" href="css/sweetalert2.min.css" />
 		<link rel="stylesheet" href="css/estilos.min.css" />
@@ -36,7 +35,7 @@
 			<header class="section header">
 				<div class="contenedor-icono">
 					<p>
-						<a href="#nosotros" class="texto-blanco"><i class="fas fa-chevron-down"></i></a>
+						<a href="#nosotros" class=""><i class="fas fa-chevron-down"></i></a>
 					</p>
 				</div>
 			</header>
@@ -50,20 +49,38 @@
 			</section>
 
 			<section class="section productos">
-				<div class="main">
-					<div class="container">
-						<div id="product-01" style="background-image: url('media/product-06.jpg')"></div>
-						<div id="product-02" style="background-image: url('media/product-02.jpg')"></div>
-						<div id="product-03" style="background-image: url('media/product-03.jpg')"></div>
-						<div id="product-04" style="background-image: url('media/product-04.jpg')"></div>
-						<div id="product-05" style="background-image: url('media/product-05.jpg')"></div>
-						<div id="product-06" style="background-image: url('media/product-01.jpg')"></div>
-						<div id="product-07" style="background-image: url('media/product-07.jpg')"></div>
+				<div class="productos__grid">
+					<div class="productos__container">
+						<div class="productos__image" id="product-01" style="background-image: url('media/product-01.jpg')"></div>
+						<div class="productos__image" id="product-02" style="background-image: url('media/product-02.jpg')"></div>
+						<div class="productos__image" id="product-03" style="background-image: url('media/product-03.jpg')"></div>
+						<div class="productos__image" id="product-04" style="background-image: url('media/product-04.jpg')"></div>
+						<div class="productos__image" id="product-05" style="background-image: url('media/product-05.jpg')"></div>
+						<div class="productos__image" id="product-06" style="background-image: url('media/product-06.jpg')"></div>
+						<div class="productos__image" id="product-07" style="background-image: url('media/product-07.jpg')"></div>
 					</div>
 				</div>
 			</section>
 
-			<section class="section regalos"></section>
+			<section class="section regalos">
+				<!-- <div class="regalos__container">
+					<div class="regalos__animation">
+						<div class="regalos__first">
+							<img class="regalos__first-image" src="media/product-01.jpg" alt="" />
+						</div>
+						<div class="regalos__second">
+							<div class="regalos__info">
+								<p class="regalos__modelo">
+									<span class="texto-negro">Franeja</span>
+									<span class="texto-primario">Metalica</span>
+								</p>
+								<p class="regalos__descripcion texto-negro">Lorem, ipsum dolor.</p>
+								<p class="regalos__precio texto-negro">2,800</p>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</section>
 		</main>
 
 		<script type="text/javascript" src="js/sweetalert2.min.js"></script>
