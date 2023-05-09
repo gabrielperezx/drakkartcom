@@ -30,3 +30,36 @@ h6 {
 .texto-negro {
 	color: $negro;
 }
+
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+.icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: $blanco;
+	font-size: 20px;
+}
+
+.icon-bar a:hover {
+	background-color: #000;
+}
+
+.instagram {
+	background: #f09433;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.whatsapp {
+	background: #25d366;
+}
+
+.telegram {
+	background: #229ED9;
+}

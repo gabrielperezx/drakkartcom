@@ -9,11 +9,18 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 		<link rel="stylesheet" href="css/fullpage.min.css" />
 		<link rel="stylesheet" href="css/sweetalert2.min.css" />
 		<link rel="stylesheet" href="css/estilos.min.css" />
 	</head>
 	<body>
+		<div class="icon-bar">
+			<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+			<a href="#" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+			<a href="#" class="telegram"><i class="bi bi-telegram"></i></a>
+		</div>
+
 		<nav class="nav">
 			<ul id="menu" class="menu">
 				<li data-menuanchor="inicio" class="active">
@@ -35,9 +42,13 @@
 			<header class="section header">
 				<div class="contenedor-icono">
 					<p>
-						<a href="#nosotros" class=""><i class="fas fa-chevron-down"></i></a>
+						<a href="#nosotros" class="texto-blanco"><i class="bi bi-caret-down-fill"></i></a>
 					</p>
 				</div>
+				<!-- Video -->
+				<video loop muted data-autoplay class="bg-video">
+					<source src="media/bg-video-01.mp4" type="video/mp4" />
+				</video>
 			</header>
 
 			<section class="section nosotros">
