@@ -49,7 +49,7 @@ $f2: calc(2 * $s2 * $r + 4 * $mv - 2 * $vc2 - 2px);
 		height: calc($s * $r);
 		display: inline-block;
 		font-size: initial;
-		background-color: $negro;
+		background-color: $black;
 		clip-path: polygon($hc 0, calc(100% - $hc) 0, 100% $vc, 100% calc(100% - $vc), calc(100% - $hc) 100%, $hc 100%, 0 calc(100% - $vc), 0 $vc);
 		margin-bottom: calc($mv - $vc);
 		background-size: cover;
@@ -98,7 +98,7 @@ $f2: calc(2 * $s2 * $r + 4 * $mv - 2 * $vc2 - 2px);
 	}
 	&__info {
 		padding: 1.25rem 1rem;
-		background-color: $blanco;
+		background-color: $white;
 		border-top-right-radius: 20px;
 		border-bottom-right-radius: 20px;
 		text-align: left;

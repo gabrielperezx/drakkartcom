@@ -1,0 +1,44 @@
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+.icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	font-size: 20px;
+}
+
+.instagram {
+	background: #f09433;
+	color: $white;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+	&:hover {
+		background: $white;
+		color: #f09433;
+	}
+}
+
+.whatsapp {
+	background: #25d366;
+	color: $white;
+
+	&:hover {
+		background: $white;
+		color: #25d366;
+	}
+}
+
+.telegram {
+	background: #229ed9;
+	color: $white;
+
+	&:hover {
+		background: $white;
+		color: #229ed9;
+	}
+}
