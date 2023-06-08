@@ -1,15 +1,12 @@
-.tshirt__area {
-	position: absolute;
-	top: 60px;
-	left: 122px;
-	z-index: 10;
-	width: 200px;
-	height: 400px;
-}
-
-.tshirt__picture {
-	pointer-events: none;
-	user-select: none;
+.tshirt {
+	&__area {
+		position: absolute;
+		top: 60px;
+		left: 122px;
+		z-index: 10;
+		width: 200px;
+		height: 400px;
+	}
 }
 
 .canvas-container {

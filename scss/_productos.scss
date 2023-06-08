@@ -74,9 +74,6 @@ $f2: calc(2 * $s2 * $r + 4 * $mv - 2 * $vc2 - 2px);
 		justify-content: center;
 		align-items: center;
 		position: relative;
-		// opacity: 0;
-		// animation: fadeIn 1.5s forwards;
-		// transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	}
 	&__first {
 		width: $s2;

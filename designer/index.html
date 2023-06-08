@@ -13,41 +13,43 @@
 		<link rel="stylesheet" href="../css/estilos.min.css" />
 	</head>
 	<body>
-		<div class="container tshirt">
-			<div class="row">
-				<div class="col">
-					<div class="m-auto" id="desing_container">
-						<img class="tshirt__picture" src="../media/background_tshirt.png" />
-						<div class="tshirt__area">
-							<div class="canvas-container">
-								<canvas class="tshirt__canvas" id="desingCanvas" width="200" height="400"></canvas>
+		<div class="tshirt">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="m-auto" id="desing_container">
+							<img class="pe-none img-fluid" src="../media/background_tshirt.png" />
+							<div class="tshirt__area">
+								<div class="canvas-container">
+									<canvas class="tshirt__canvas" id="desingCanvas" width="200" height="400"></canvas>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col">
-					<p class="fs-5">Para eliminar una imagen cargada en la camiseta, selecciónela y presione la tecla <span class="texto-negrita">DEL</span>.</p>
-					<div class="mb-4">
-						<label class="form-label fs-5" for="shirtColor">Color de la camiseta</label>
-						<select class="form-select" id="shirtColor">
-							<option selected value="#fff">Blanco</option>
-							<option value="#000">Negro</option>
-							<option value="#FF0000">Rojo</option>
-							<option value="#FFFF00">Amarillo</option>
-							<option value="#0000FF">Azul</option>
-						</select>
+					<div class="col">
+						<p class="fs-5">Para eliminar una imagen cargada en la camiseta, selecciónela y presione la tecla <span class="texto-negrita">DEL</span>.</p>
+						<div class="mb-4">
+							<label class="form-label fs-5" for="shirtColor">Color de la camiseta</label>
+							<select class="form-select" id="shirtColor">
+								<option selected value="#fff">Blanco</option>
+								<option value="#000">Negro</option>
+								<option value="#FF0000">Rojo</option>
+								<option value="#FFFF00">Amarillo</option>
+								<option value="#0000FF">Azul</option>
+							</select>
+						</div>
+						<div class="mb-3">
+							<label class="form-label fs-5" for="fileUpload">Sube tu propio diseño</label>
+							<input class="form-control" type="file" id="fileUpload" />
+						</div>
+						<button type="button" class="btn btn-primary" disabled id="btn_dowload">Descargar diseño</button>
 					</div>
-					<div class="mb-3">
-						<label class="form-label fs-5" for="fileUpload">Sube tu propio diseño</label>
-						<input class="form-control" type="file" id="fileUpload" />
-					</div>
-					<button type="button" class="btn btn-primary" id="btn_dowload">Descargar diseño</button>
 				</div>
 			</div>
 		</div>
 
 		<script type="text/javascript" src="../js/fabric.min.js"></script>
 		<script type="text/javascript" src="../js/dom-to-image.min.js"></script>
-		<script type="text/javascript" src="../js/designer.min.js"></script>
+		<script type="text/javascript" src="../js/app.min.js"></script>
 	</body>
 </html>

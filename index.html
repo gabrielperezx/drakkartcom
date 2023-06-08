@@ -15,83 +15,57 @@
 		<link rel="stylesheet" href="css/estilos.min.css" />
 	</head>
 	<body>
-		<div class="icon-bar">
-			<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-			<a href="#" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
-			<a href="#" class="telegram"><i class="bi bi-telegram"></i></a>
+		<div class="d-flex user-select-none pe-none justify-content-start fixed-top translate-middle-y top-50">
+			<div class="d-flex flex-column pe-auto">
+				<a class="d-block p-3 fs-4 instagram" href="#"><i class="bi bi-instagram"></i></a>
+				<a class="d-block p-3 fs-4 whatsapp" href="#"><i class="bi bi-whatsapp"></i></a>
+				<a class="d-block p-3 fs-4 telegram" href="#"><i class="bi bi-telegram"></i></a>
+			</div>
 		</div>
 
-		<nav class="nav">
-			<ul id="menu" class="menu">
-				<li data-menuanchor="inicio" class="active">
-					<a href="#inicio">Inicio</a>
-				</li>
-				<li data-menuanchor="nosotros">
-					<a href="#nosotros">Nosotros</a>
-				</li>
-				<li data-menuanchor="productos">
-					<a href="#productos">Productos</a>
-				</li>
-				<li data-menuanchor="regalos">
-					<a href="#regalos">Regalos</a>
-				</li>
-			</ul>
+		<nav id="menu" class="navbar fixed-top">
+			<div class="container-fluid justify-content-center">
+				<div class="btn-group">
+					<a data-menuanchor="inicio" class="btn btn-primary active me-1" aria-current="page" href="#inicio">Inicio</a>
+					<a data-menuanchor="nosotros" class="btn btn-primary me-1" href="#nosotros">Nosotros</a>
+					<a data-menuanchor="productos" class="btn btn-primary me-1" href="#productos">Productos</a>
+					<a data-menuanchor="regalos" class="btn btn-primary" href="#regalos">Regalos</a>
+				</div>
+			</div>
 		</nav>
 
 		<main id="fullpage">
 			<header class="section header">
-				<div class="contenedor-icono">
-					<p>
-						<a href="#nosotros" class="texto-blanco"><i class="bi bi-caret-down-fill"></i></a>
-					</p>
-				</div>
-				<!-- Video -->
 				<video loop muted data-autoplay class="bg-video">
 					<source src="media/bg-video-01.mp4" type="video/mp4" />
 				</video>
 			</header>
 
-			<section class="section nosotros">
-				<div class="light"></div>
-				<div class="grid"></div>
-				<div class="iframe-container">
-					<iframe class="responsive-iframe" src="https://www.youtube.com/embed/IAaiidikgHw"></iframe>
+			<section class="section bg-black">
+				<div class="container text-white">
+					<h1 class="fs-2">¡Bienvenido a nuestra tienda de franelas personalizadas con temática vikinga!</h1>
+					<p class="fs-5">Nuestras franelas están diseñadas para aquellos que quieren expresar su amor por la cultura vikinga de una manera única y personalizada. Utilizamos vinil textil de alta calidad para asegurarnos de que el diseño perdure a través del tiempo sin perder su nitidez.</p>
+					<p class="fs-5">Al elegir una franela vikinga personalizada, tendrás la oportunidad de mostrar tu personalidad única y tu amor por esta cultura legendaria. Además, nuestras franelas son ideales para cualquier evento, ya sea una fiesta temática o para un día casual en la calle.</p>
+					<p class="fs-5">¿Te gustaría algo más específico? ¡Podemos crear tu diseño personalizado! Ya sea que quieras un diseño que muestre a tu personaje vikingo favorito o algo que represente tu propio lado guerrero, estamos aquí para ayudarte a diseñar y crear una franela única para ti.</p>
+					<p class="fs-5">No esperes más para conseguir una franela con temática vikinga personalizada. ¡Compra ahora y muestra tu amor por esta cultura icónica!</p>
 				</div>
 			</section>
 
-			<section class="section productos">
+			<section class="section productos bg-dark">
 				<div class="productos__grid">
 					<div class="productos__container">
-						<div class="productos__image" id="product-01" style="background-image: url('media/product-01.jpg')"></div>
-						<div class="productos__image" id="product-02" style="background-image: url('media/product-02.jpg')"></div>
-						<div class="productos__image" id="product-03" style="background-image: url('media/product-03.jpg')"></div>
-						<div class="productos__image" id="product-04" style="background-image: url('media/product-04.jpg')"></div>
-						<div class="productos__image" id="product-05" style="background-image: url('media/product-05.jpg')"></div>
-						<div class="productos__image" id="product-06" style="background-image: url('media/product-06.jpg')"></div>
-						<div class="productos__image" id="product-07" style="background-image: url('media/product-07.jpg')"></div>
+						<div class="productos__image" style="background-image: url('media/product-01.jpg')"></div>
+						<div class="productos__image" style="background-image: url('media/product-02.jpg')"></div>
+						<div class="productos__image" style="background-image: url('media/product-03.jpg')"></div>
+						<div class="productos__image" style="background-image: url('media/product-04.jpg')"></div>
+						<div class="productos__image" style="background-image: url('media/product-05.jpg')"></div>
+						<div class="productos__image" style="background-image: url('media/product-06.jpg')"></div>
+						<div class="productos__image" style="background-image: url('media/product-07.jpg')"></div>
 					</div>
 				</div>
 			</section>
 
-			<section class="section regalos">
-				<!-- <div class="regalos__container">
-					<div class="regalos__animation">
-						<div class="regalos__first">
-							<img class="regalos__first-image" src="media/product-01.jpg" alt="" />
-						</div>
-						<div class="regalos__second">
-							<div class="regalos__info">
-								<p class="regalos__modelo">
-									<span class="texto-negro">Franeja</span>
-									<span class="texto-primario">Metalica</span>
-								</p>
-								<p class="regalos__descripcion texto-negro">Lorem, ipsum dolor.</p>
-								<p class="regalos__precio texto-negro">2,800</p>
-							</div>
-						</div>
-					</div>
-				</div> -->
-			</section>
+			<section class="section regalos"></section>
 		</main>
 
 		<script type="text/javascript" src="js/sweetalert2.min.js"></script>
