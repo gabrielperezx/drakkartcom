@@ -19,3 +19,22 @@ $enable-cssgrid: true;
 /* ----- ----- Colores ----- ----- */
 $primary: #27606b;
 $gris: #acacac;
+
+.bg-image {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	cursor: url('../media/cursor-normal.png'), auto;
+	a,
+	button {
+		cursor: url('../media/cursor-pointer.png'), auto;
+	}
+	p {
+		cursor: text;
+	}
+}
+
+$enable-button-pointers: false;

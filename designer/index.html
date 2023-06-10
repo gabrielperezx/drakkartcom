@@ -18,7 +18,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="m-auto" id="desing_container">
-							<img class="pe-none img-fluid" src="../media/background_tshirt.png" />
+							<img class="pe-none img-fluid" id="shirtImage" src="../media/black-front-shirt.png" />
 							<div class="tshirt__area">
 								<div class="canvas-container">
 									<canvas class="tshirt__canvas" id="desingCanvas" width="200" height="400"></canvas>
@@ -28,14 +28,19 @@
 					</div>
 					<div class="col">
 						<p class="fs-5">Para eliminar una imagen cargada en la camiseta, selecciónela y presione la tecla <span class="texto-negrita">DEL</span>.</p>
-						<div class="mb-4">
-							<label class="form-label fs-5" for="shirtColor">Color de la camiseta</label>
-							<select class="form-select" id="shirtColor">
-								<option selected value="#fff">Blanco</option>
-								<option value="#000">Negro</option>
-								<option value="#FF0000">Rojo</option>
-								<option value="#FFFF00">Amarillo</option>
-								<option value="#0000FF">Azul</option>
+						<div class="mb-3">
+							<label class="form-label fs-5" for="shirtView">Vista de la camisa</label>
+							<select class="form-select selectsShirt" id="shirtView">
+								<option selected value="front">Vista frontal</option>
+								<option value="side">Vista lateral</option>
+								<option value="back">Vista trasera</option>
+							</select>
+						</div>
+						<div class="mb-3">
+							<label class="form-label fs-5" for="shirtColor">Color de la camisa</label>
+							<select class="form-select selectsShirt" id="shirtColor">
+								<option selected value="black">Negro</option>
+								<option value="white">Blanco</option>
 							</select>
 						</div>
 						<div class="mb-3">
