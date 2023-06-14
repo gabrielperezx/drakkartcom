@@ -26,15 +26,15 @@ $gris: #acacac;
 	background-size: cover;
 }
 
-body {
-	cursor: url('../media/cursor-normal.png'), auto;
-	a,
-	button {
-		cursor: url('../media/cursor-pointer.png'), auto;
-	}
-	p {
-		cursor: text;
-	}
-}
+// body {
+// 	cursor: url('../media/cursor-normal.png'), auto;
+// 	a,
+// 	button {
+// 		cursor: url('../media/cursor-pointer.png'), auto;
+// 	}
+// 	p {
+// 		cursor: text;
+// 	}
+// }
 
-$enable-button-pointers: false;
+// $enable-button-pointers: false;

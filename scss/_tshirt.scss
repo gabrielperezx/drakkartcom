@@ -1,33 +1,35 @@
-.tshirt {
-	&__area {
-		position: absolute;
-		top: 60px;
-		left: 122px;
-		z-index: 10;
-		width: 200px;
-		height: 400px;
-	}
-}
+$w-canvas: 250px;
+$h-canvas: 450px;
 
-.canvas-container {
-	width: 200px;
-	height: 400px;
+#desing_container {
 	position: relative;
 	user-select: none;
 }
 
-#desing_container {
-	width: 452px;
-	height: 548px;
+.tshirt {
+	&__area {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		z-index: 10;
+		width: $w-canvas;
+		height: $h-canvas;
+	}
+}
+.canvas-container {
+	width: $w-canvas;
+	height: $h-canvas;
 	position: relative;
-	background-color: #fff;
 	user-select: none;
 }
 
 #canvas {
 	position: absolute;
-	width: 200px;
-	height: 400px;
+	width: $w-canvas;
+	height: $h-canvas;
 	left: 0px;
 	top: 0px;
 	user-select: none;

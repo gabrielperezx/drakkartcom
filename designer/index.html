@@ -13,21 +13,21 @@
 		<link rel="stylesheet" href="../css/estilos.min.css" />
 	</head>
 	<body>
-		<div class="tshirt">
+		<div class="tshirt min-vh-100 d-flex align-items-center p-5 p-lg-0">
 			<div class="container">
 				<div class="row">
-					<div class="col">
-						<div class="m-auto" id="desing_container">
-							<img class="pe-none img-fluid" id="shirtImage" src="../media/black-front-shirt.png" />
-							<div class="tshirt__area">
+					<div class="col-12 col-lg-6 d-flex justify-content-center align-content-center">
+						<div id="desing_container">
+							<img class="pe-none" id="shirtImage" width="540" height="540" src="../media/black-front-shirt.webp" />
+							<div class="tshirt__area" style="--bs-border-style: dashed">
 								<div class="canvas-container">
-									<canvas class="tshirt__canvas" id="desingCanvas" width="200" height="400"></canvas>
+									<canvas class="tshirt__canvas" id="desingCanvas" width="250" height="450"></canvas>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col">
-						<p class="fs-5">Para eliminar una imagen cargada en la camiseta, selecciónela y presione la tecla <span class="texto-negrita">DEL</span>.</p>
+					<div class="col-12 col-lg-6">
+						<p class="fs-5">Para eliminar una imagen cargada en la camisa, selecciónela y presione la tecla <kbd>DEL</kbd> o <kbd>SUPR</kbd>.</p>
 						<div class="mb-3">
 							<label class="form-label fs-5" for="shirtView">Vista de la camisa</label>
 							<select class="form-select selectsShirt" id="shirtView">
