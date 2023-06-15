@@ -47,7 +47,7 @@
 			products.forEach((e, i) => {
 				e.addEventListener('click', () => {
 					productPopup.fire({
-						html: '<div class="productos__animation"><div class="productos__first"><img class="productos__first-image" src="media/product-0' + (i + 1) + '.jpg" alt=""></div><div class="productos__second"><div class="productos__info"><p class="productos__modelo"><span class="texto-negro">Franeja</span><span class="texto-primario">' + productBrand[i] + '</span></p><p class="productos__descripcion texto-negro">Lorem, ipsum dolor.</p><p class="productos__precio texto-negro">' + productPrice[i] + '</p></div></div></div>',
+						html: '<div class="productos__animation"><div class="productos__first"><img class="productos__first-image" src="media/product-0' + (i + 1) + '.webp" alt=""></div><div class="productos__second"><div class="productos__info"><p class="productos__modelo"><span class="texto-negro">Franeja</span><span class="texto-primario">' + productBrand[i] + '</span></p><p class="productos__descripcion texto-negro">Lorem, ipsum dolor.</p><p class="productos__precio texto-negro">' + productPrice[i] + '</p></div></div></div>',
 					});
 					document.body.style.backgroundColor = 'black';
 					productContainer = document.querySelector('.productos__sa2-container');
