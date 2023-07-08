@@ -191,9 +191,9 @@
 
 	/* ----- ----- Declaraciones ----- ----- */
 	fullpageFW();
+	productos();
 
 	window.onload = function () {
-		productos();
 		tShirtDesigner();
 	};
 })();

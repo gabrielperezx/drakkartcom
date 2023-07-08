@@ -55,7 +55,7 @@ $f2: calc(2 * $s2 * $r + 4 * $mv - 2 * $vc2 - 2px);
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		cursor: pointer;
+		cursor: $pointer;
 		transition: ease 0.3s filter;
 		&:hover {
 			filter: brightness(0.6);
