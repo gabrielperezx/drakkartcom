@@ -19,6 +19,8 @@ $enable-cssgrid: true;
 /* ----- ----- Colores ----- ----- */
 $primary: #27606b;
 $gris: #acacac;
+$normal: url('../media/Dknormal.png'), default;
+$pointer: url('../media/Dkpointer.png'), pointer;
 
 .bg-image {
 	background-position: center;
@@ -26,15 +28,29 @@ $gris: #acacac;
 	background-size: cover;
 }
 
-// body {
-// 	cursor: url('../media/cursor-normal.png'), auto;
-// 	a,
-// 	button {
-// 		cursor: url('../media/cursor-pointer.png'), auto;
-// 	}
-// 	p {
-// 		cursor: text;
-// 	}
-// }
+html,
+body {
+	cursor: $normal;
+}
 
-// $enable-button-pointers: false;
+p,
+code {
+	cursor: text;
+}
+
+a,
+label,
+button,
+input[type='submit'],
+input[type='button'],
+input[type='radio'],
+input[type='checkbox'] {
+	cursor: $pointer;
+}
+
+button[disabled],
+input[disabled] {
+	cursor: default;
+}
+
+$enable-button-pointers: false;
