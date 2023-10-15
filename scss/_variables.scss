@@ -19,7 +19,7 @@ $enable-cssgrid: true;
 /* ----- ----- Colores ----- ----- */
 $primary: #27606b;
 $gris: #acacac;
-$normal: url('../media/Dknormal.png'), default;
+$normal: url('../media/Dknormal.png'), auto;
 $pointer: url('../media/Dkpointer.png'), pointer;
 
 .bg-image {
@@ -45,7 +45,7 @@ input[type='submit'],
 input[type='button'],
 input[type='radio'],
 input[type='checkbox'] {
-	cursor: $pointer;
+	cursor: $pointer !important;
 }
 
 button[disabled],
