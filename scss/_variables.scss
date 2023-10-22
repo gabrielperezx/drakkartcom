@@ -1,5 +1,6 @@
 /* ----- ----- Fuentes ----- ----- */
 $font-family-sans-serif: 'Oswald', sans-serif;
+$font-family-serif: 'Inknut Antiqua', serif;
 
 /* ----- ----- Espaciados ----- ----- */
 $spacer: 1rem;
@@ -19,38 +20,53 @@ $enable-cssgrid: true;
 /* ----- ----- Colores ----- ----- */
 $primary: #27606b;
 $gris: #acacac;
-$normal: url('../media/Dknormal.png'), auto;
-$pointer: url('../media/Dkpointer.png'), pointer;
+// $normal: url('../media/Dknormal.png'), auto;
+// $pointer: url('../media/Dkpointer.png'), pointer;
 
 .bg-image {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-html,
-body {
-	cursor: $normal;
+.bg-parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-p,
-code {
-	cursor: text;
+.card:hover {
+	transform: scale(1.05);
+	transition: ease 0.25s all;
 }
 
-a,
-label,
-button,
-input[type='submit'],
-input[type='button'],
-input[type='radio'],
-input[type='checkbox'] {
-	cursor: $pointer !important;
+.font-secondary {
+	font-family: $font-family-serif;
 }
 
-button[disabled],
-input[disabled] {
-	cursor: default;
-}
+// html,
+// body {
+// 	cursor: $normal;
+// }
 
-$enable-button-pointers: false;
+// p,
+// code {
+// 	cursor: text;
+// }
+
+// a,
+// label,
+// button,
+// input[type='submit'],
+// input[type='button'],
+// input[type='radio'],
+// input[type='checkbox'] {
+// 	cursor: $pointer !important;
+// }
+
+// button[disabled],
+// input[disabled] {
+// 	cursor: default;
+// }
+
+// $enable-button-pointers: false;
