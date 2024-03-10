@@ -5,14 +5,14 @@ $font-family-serif: 'Inknut Antiqua', serif;
 /* ----- ----- Espaciados ----- ----- */
 $spacer: 1rem;
 $spacers: (
-	0: 0,
-	1: $spacer * 0.25,
-	2: $spacer * 0.5,
-	3: $spacer,
-	4: $spacer * 1.5,
-	5: $spacer * 3,
-	6: $spacer * 6,
-	7: $spacer * 12,
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 12,
 );
 
 $enable-cssgrid: true;
@@ -20,53 +20,3 @@ $enable-cssgrid: true;
 /* ----- ----- Colores ----- ----- */
 $primary: #27606b;
 $gris: #acacac;
-// $normal: url('../media/Dknormal.png'), auto;
-// $pointer: url('../media/Dkpointer.png'), pointer;
-
-.bg-image {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.bg-parallax {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.card:hover {
-	transform: scale(1.05);
-	transition: ease 0.25s all;
-}
-
-.font-secondary {
-	font-family: $font-family-serif;
-}
-
-// html,
-// body {
-// 	cursor: $normal;
-// }
-
-// p,
-// code {
-// 	cursor: text;
-// }
-
-// a,
-// label,
-// button,
-// input[type='submit'],
-// input[type='button'],
-// input[type='radio'],
-// input[type='checkbox'] {
-// 	cursor: $pointer !important;
-// }
-
-// button[disabled],
-// input[disabled] {
-// 	cursor: default;
-// }
-
-// $enable-button-pointers: false;
